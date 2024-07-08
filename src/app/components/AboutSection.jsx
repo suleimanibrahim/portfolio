@@ -9,12 +9,16 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
+        <li>Java</li>
+        <li>SpringBoot</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>Nexjs</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Docker</li>
+        <li>Kubernates</li>
+        <li>Microservices</li>
+        <li>CI/CD</li>
       </ul>
     ),
   },
@@ -23,8 +27,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Abubakar Tafawa Balewa University Bauchi, Nigeria</li>
+        <li>The Federal Polytechnic Damaturu, Nigeria </li>
       </ul>
     ),
   },
@@ -52,17 +56,22 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+      <div className="md:grid md:grid-cols-2 gap-8 py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <Image src="/images/about-image.png" alt="" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          <p className="text-base lg:text-lg text-justify">
+          Experienced Full Stack Developer skilled in Java, React, Nexjs and Angular, with a focus on building scalable web applications. Proficient in front-end and back-end development, I deliver projects from concept to deployment, employing intuitive user interface design and robust server-side logic.
+          Key skills: Java, Microservices architecture, Python, Angular, Nexjs, HTML5, CSS3, JavaScript, RESTful APIs. I excel in problem-solving and collaborate effectively with cross-functional teams, ensuring high-quality code within project timelines.
+          <p>
+          <br/>
+          Highlights:
+          <br/>
+          </p>
+          Optimize performance and enhance user experience
+          Embrace continuous integration and test-driven development
+          Stay updated with industry trends and best practices
+          Passionate about delivering innovative solutions that exceed expectations. Open to new challenges and opportunities for growth.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
