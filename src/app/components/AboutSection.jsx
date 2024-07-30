@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="flex flex-col list-disc pl-2">
         <li>Java</li>
         <li>Python</li>
         <li>Django</li>
@@ -19,6 +19,7 @@ const TAB_DATA = [
         <li>Angular</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>React Native</li>
         <li>Git/Github</li>
         <li>Docker</li>
         <li>Kubernates</li>
@@ -44,8 +45,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Linux Cloud Engineer Bootcamp</li>
+        <li>Scrum Fundamentals Certified (SFC)</li>
       </ul>
     ),
   },
@@ -91,17 +92,17 @@ const AboutSection = () => {
           <br/>
            Key Skills and Expertise:
           <br/>
-        </p>
-          ✅Web Frameworks: Spring Boot, Django
-          ✅Databases: PostgreSQL, MySQL, MongoDB, DynamoDB, Google Cloud Datastore, BigQuery
-          ✅APIs: Google Ads API, Facebook Business API
-          ✅DevOps: Kubernetes, Docker, AWS Services
-          ✅Message Queues: Kafka, RabbitMQ, ActiveMQ, Artemis, AWS SQS
-          ✅Authentication: Keycloak, Apache Camel
-          ✅Architecture: Microservices, API Gateway, Service Discovery (Kubernetes), Configuration Management
-          ✅Search Technologies: Elastic Search, Apache Solr
-          ✅UI Frameworks: Angular, ReactJS, NexJs
-          ✅Others: Spring, Spring Boot, Spring Cloud, Spring Security, Hibernate, JPA, JDBC, REST API, SOAP, gRPC, GraphQL, Apache POI
+        </p> 
+         <ul className="list-none">
+          <li>✅ <span className="font-bold">Web Frameworks:</span> Spring Boot, Django</li>
+          <li>✅ <span className="font-bold">Databases:</span> PostgreSQL, MySQL, MongoDB</li>
+          <li>✅ <span className="font-bold">DevOps:</span> Kubernetes, Docker, AWS Services</li>
+          <li>✅ <span className="font-bold">Message Queues:</span> Kafka</li>
+          <li>✅ <span className="font-bold">Authentication:</span> Keycloak, Spring Security</li>
+          <li>✅ <span className="font-bold">Architecture:</span> Microservices, API Gateway, Service Discovery (Kubernetes), Configuration Management</li>
+          <li>✅ <span className="font-bold">UI Frameworks:</span> Angular, ReactJS, NexJs React native</li>
+          <li>✅ <span className="font-bold">Others:</span> Spring, Spring Boot, Spring Cloud, Spring Security, Hibernate, JPA, JDBC, REST API</li>
+         </ul>
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
