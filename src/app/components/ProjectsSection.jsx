@@ -7,12 +7,24 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Accounting application",
+    description:
+      "An accounting application that allow accountants to automate and manage their accounting workflows",
+    image: "/images/projects/Fintech.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/suleimanibrahim",
+    previewUrl: "http://app.infrestng.com/",
+  },
+  {
+    id: 2,
     title: "Fintech Application",
-    description: "The app basically allows users to register, login transfer fund from one wallet to another, a virtual wallet is created to user upon registration on the app using a flutterwave integration",
+    description:
+      "The app basically allows users to register, login transfer fund from one wallet to another, a virtual wallet is created to user upon registration on the app using a flutterwave integration",
     image: "/images/projects/Fintech.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/suleimanibrahim/FintechApp",
-    previewUrl: "https://fintech-g7y8cx7m2-suleimanibrahimsabangmailcoms-projects.vercel.app/",
+    previewUrl:
+      "https://fintech-g7y8cx7m2-suleimanibrahimsabangmailcoms-projects.vercel.app/",
   },
   {
     id: 3,
