@@ -10,7 +10,7 @@ const projectsData = [
     title: "Accounting application",
     description:
       "An accounting application that allow accountants to automate and manage their accounting workflows",
-    image: "/images/projects/Fintech.png",
+    image: "/images/projects/accounting.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/suleimanibrahim",
     previewUrl: "http://app.infrestng.com/",
