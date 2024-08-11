@@ -23,8 +23,7 @@ const projectsData = [
     image: "/images/projects/Fintech.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/suleimanibrahim/FintechApp",
-    previewUrl:
-      "https://fintech-g7y8cx7m2-suleimanibrahimsabangmailcoms-projects.vercel.app/",
+    previewUrl: "https://fintech-app-sigma.vercel.app/",
   },
   {
     id: 3,
