@@ -10,9 +10,11 @@ const TAB_DATA = [
     content: (
       <ul className="flex flex-col list-disc pl-2">
         <li>Java</li>
+        <li>Node.Js</li>
         <li>Python</li>
         <li>Django</li>
         <li>SpringBoot</li>
+        <li>Express</li>
         <li>PostgreSQL</li>
         <li>Mysql</li>
         <li>Nexjs</li>
@@ -94,7 +96,7 @@ const AboutSection = () => {
           <br/>
         </p> 
          <ul className="list-none">
-          <li>✅ <span className="font-bold">Web Frameworks:</span> Spring Boot, Django</li>
+          <li>✅ <span className="font-bold">Web Frameworks:</span> Spring Boot, Django, Express</li>
           <li>✅ <span className="font-bold">Databases:</span> PostgreSQL, MySQL, MongoDB</li>
           <li>✅ <span className="font-bold">DevOps:</span> Kubernetes, Docker, AWS Services</li>
           <li>✅ <span className="font-bold">Message Queues:</span> Kafka</li>
